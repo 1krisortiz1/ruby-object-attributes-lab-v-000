@@ -4,6 +4,10 @@ class Dog
     @name
   end
 
+  def new=(new_name)
+    @new = new_name
+  end
+
   def breed
     @breed
   end
